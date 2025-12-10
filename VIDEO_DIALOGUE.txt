@@ -1,0 +1,19 @@
+FHEVM Example Hub - Video Dialogue (60 Seconds)
+
+---
+
+Introducing the FHEVM Example Hub - the complete framework for building privacy-preserving smart contracts on the blockchain.
+
+Building confidential smart contracts is complex. You need secure encryption, comprehensive testing, proper documentation, and scalable automation. Until now, developers had no unified resource to learn and master these concepts.
+
+The FHEVM Example Hub provides everything you need. Ten production-ready example contracts, from basic FHE operations to advanced auction systems and token standards. Each comes with comprehensive tests, automated scaffolding, and auto-generated documentation.
+
+Our powerful automation tools let you generate complete example repositories in seconds. Create standalone projects, generate entire categories with one command, and automatically produce GitBook-compatible documentation from your source code.
+
+Comprehensive testing at every level. Start with instant mock environment tests for rapid development. Move to enhanced mock tests for realistic FHE behavior. Finally, validate on Sepolia testnet with real encryption. All with clear, documented patterns you can follow.
+
+Explore diverse examples: encrypted counters for learning basic FHE operations, access control patterns for permission management, blind auctions for confidential bidding, and ERC7984 token implementations for privacy-preserving finance. Every example is production-ready and fully tested.
+
+Documentation stays synchronized with your code. JSDoc annotations automatically generate comprehensive guides, organized by category and difficulty level. GitBook-compatible format means your examples are instantly accessible to the community.
+
+Start building today. Join the FHEVM Example Hub competition. Ten thousand dollars in prizes await. Visit the repository now. Build encrypted smart contracts. Advance privacy on blockchain.
