@@ -2,7 +2,7 @@
 
 A comprehensive collection of production-ready examples demonstrating Fully Homomorphic Encryption Virtual Machine (FHEVM) smart contract development. This repository provides developers with complete resources to understand, build, and deploy privacy-preserving blockchain applications.
 
-[FHEVM Example Hub.mp4](https://streamable.com/pclaxu)
+[FHEVM Example Hub.mp4](https://youtu.be/BSTKh5PYFig)
 
 [Live Demo](https://fhevm-example-hub-woad.vercel.app/)
 

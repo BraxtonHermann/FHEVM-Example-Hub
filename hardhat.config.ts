@@ -1,16 +1,29 @@
-import { HardhatUserConfig } from "hardhat/config";
+import "@fhevm/hardhat-plugin";
+import "@nomicfoundation/hardhat-chai-matchers";
+import "@nomicfoundation/hardhat-ethers";
 import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-verify";
+import "@typechain/hardhat";
+import "hardhat-deploy";
+import "hardhat-gas-reporter";
+import "solidity-coverage";
+
+import { HardhatUserConfig } from "hardhat/config";
 import * as dotenv from "dotenv";
 
 dotenv.config();
 
 const config: HardhatUserConfig = {
+  defaultNetwork: "hardhat",
   solidity: {
     version: "0.8.24",
     settings: {
+      metadata: {
+        bytecodeHash: "none",
+      },
       optimizer: {
         enabled: true,
-        runs: 200,
+        runs: 800,
       },
       evmVersion: "cancun",
       viaIR: true,
@@ -39,12 +52,13 @@ const config: HardhatUserConfig = {
     tests: "./test",
     cache: "./cache",
     artifacts: "./artifacts",
+    deploy: "./deploy",
   },
   typechain: {
-    outDir: "typechain-types",
+    outDir: "types",
     target: "ethers-v6",
     alwaysGenerateOverloads: false,
-    externalArtifacts: ["externalArtifacts/*.json"],
+    externalArtifacts: [],
     dontOverrideCompile: false,
   },
   gasReporter: {
